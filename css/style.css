@@ -1,0 +1,59 @@
+/*公用的样式*/
+
+
+/*css reset 开始*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+
+/*css reset 结束*/
+
+body {
+    background: #ffffff;
+    font-size: 12px;
+}
+
+.wrap {
+    width: 950px;
+    margin: 0 auto;
+    /* background: #c3c3c3; */
+    position: relative;
+}
+
+h2 {
+    font: 15px Arial, Helvetica, sans-serif;
+    color: #072;
+}
+
+h1 {
+    font-size: 24px;
+    cursor: pointer;
+    color: #494949;
+}
+
+p {
+    color: #333333;
+    font-size: 13px;
+    line-height: 1.38;
+    cursor: pointer;
+    text-align: center;
+}
