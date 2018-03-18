@@ -487,7 +487,7 @@
 
 #group {
     margin-top: 30px;
-    height: 574px;
+    height: 800px;
     /* background: #c3c3c3; */
     overflow: hidden;
 }
@@ -511,6 +511,7 @@ a {
 
 #group .more-group li {
     width: 248px;
+    height: 54px;
     margin: 10px 30px 30px 0;
     float: left;
 }
@@ -523,8 +524,71 @@ a {
 }
 
 #group .more-group span {
+    margin-top: 6px;
     display: block;
+}
+
+#group .group-classify {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    width: 266px;
+}
+
+#group .group-insterest {
+    margin-top: 14px;
+}
+
+#group .group-classify .group-special {
+    /* display: block; */
+    width: 266px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+#group .group-classify .group-special a {
+    color: #333;
+}
+
+#group .group-insterest li {
+    float: left;
+    margin: 0 10px 6px 0;
+}
+
+#group a:hover {
+    color: #fff;
+    background: #37a;
 }
 
 
 /*group 结束*/
+
+#footer {
+    padding-top: 18px;
+    border-top: 1px solid #eaeaea;
+    height: 400px;
+}
+
+#footer .foot-message span {
+    color: #999;
+    /* width: 484px; */
+}
+
+#footer .foot-message img {
+    width: 15px;
+}
+
+#footer .foot-service {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#footer .foot-serv li {
+    float: left;
+    margin-right: 10px;
+}
+
+#footer .foot-service img {
+    margin-top: 20px;
+}
