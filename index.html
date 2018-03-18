@@ -11,428 +11,720 @@
 </head>
 
 <body>
-    <div id="nav">
-        <div class="wrap" style="height: 84px;">
-            <a id="logo" href="#">
-                <img src="img/logo.png" alt="">
-            </a>
-            <div id="search-box">
-                <input type="text" id="ipt-search" placeholder="书籍、电影">
-                <button id="btn-search"></button>
+<div id="nav">
+    <div class="wrap" style="height: 84px;">
+        <a id="logo" href="#">
+            <img src="img/logo.png" alt="">
+        </a>
+        <div id="search-box">
+            <input type="text" id="ipt-search" placeholder="书籍、电影">
+            <button id="btn-search"></button>
+        </div>
+        <ul id="nav-menu">
+            <li>
+                <a href="" class="read">读书</a>
+            </li>
+            <li>
+                <a href="" class="movie">电影</a>
+            </li>
+            <li>
+                <a href="" class="music">音乐</a>
+            </li>
+            <li>
+                <a href="" class="group">小组</a>
+            </li>
+            <li>
+                <a href="" class="city">同城</a>
+            </li>
+            <li>
+                <a href="" class="fm">fm</a>
+            </li>
+            <li>
+                <a href="" class="time">时间</a>
+            </li>
+            <li>
+                <a href="" class="market">市集</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="banner">
+    <div class="wrap">
+        <div class="app">
+            <h1>豆瓣 5.0</h1>
+            <p>我们的精神角落</p>
+            <div class="download">
+                <a href="#" class="btn-download">下载豆瓣 App</a>
+                <img src="img/erweima.png" alt="">
             </div>
-            <ul id="nav-menu">
+        </div>
+        <form action="" id="form-login" method="post">
+            <p class="bg-login">
+                <input type="text" name="email" class="email" placeholder="邮箱 / 手机号">
+            </p>
+            <p class="bg-login">
+                <input type="password" name="password" class="pwd" placeholder="密码">
+                <span class="help">帮助</span>
+            </p>
+            <p>
+                <input type="submit" class="btn login" value="登录豆瓣">
+                <input type="button" class="btn register" value="注册账号">
+            </p>
+            <div class="rememeber-login">
+                <input type="checkbox" class="remember-me"><span class="remember-me">记住我</span>
+                <ul class="other-login">
+                    <li>
+                        <a href="#"><img src="img/wechat.png"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/weibo.png"></a>
+                    </li>
+                </ul>
+            </div>
+        </form>
+    </div>
+</div>
+<div id="hot">
+    <div class="wrap">
+        <div class="hot-content">
+            <h2 class="more-hot">热点内容......(<a href="#">更多</a>)</h2>
+            <ul class="hot-pic">
                 <li>
-                    <a href="" class="read">读书</a>
+                    <a href="#"><img src="img/hot1.webp">Mexico</a> 120张照片
                 </li>
                 <li>
-                    <a href="" class="movie">电影</a>
+                    <a href="#"><img src="img/hot2.webp">Navic</a> 103张照片</li>
+                <li>
+                    <a href="#"><img src="img/hot3.webp">慢慢吃</a> 503张照片</li>
+                <li>
+                    <a href="#"><img src="img/hot4.webp">New Zealand(13-15)</a> 103张照片</li>
+            </ul>
+            <div class="hot-text">
+                <p><a href="https://www.douban.com/note/660063411/">“我很不开心，但张开嘴却只说出没关系”| 妇女节专题：因为害怕伤害关系，我们如何放弃了自己的声音</a></p>
+                <div class="special">
+                    <p>KnowYourself的日记</p>
+                    <p>我认为只要我不伤害任何人，一切都会相安无事。但我很快就理解到，事情并不那么简...</p>
+                </div>
+                <p><a href="https://www.douban.com/note/660255900/">我在英国议会做口译</a></p>
+                <p><a href="https://www.douban.com/note/660209455/">很黄很暴力的那些片，怎么样才能通过审查在国内上映？</a></p>
+                <p><a href="https://www.douban.com/note/659956689/">北美流行的超市攻略：溜边逛，不要去中间！</a></p>
+                <p><a href="https://www.douban.com/note/659373707/">这片坟山，或许是江南墓葬最后的留存 |「过年」短篇</a></p>
+                <p><a href="https://www.douban.com/note/660355470/">离开藤校后的生活</a></p>
+                <p><a href="https://www.douban.com/note/660082579/">格蕾塔·葛韦格：一个文艺女青年的励志故事</a></p>
+                <p><a href="https://www.douban.com/note/660082967/">也谈女性：冰岛女性地位高的个人感受</a></p>
+                <p><a href="https://www.douban.com/note/660207041/">你明明这么迷人，你竟不自知</a></p>
+                <p><a href="https://www.douban.com/note/660412600/">半边天究竟有多大：中国女性曾经如何走出家庭 为何如今又走回了家庭？</a></p>
+            </div>
+        </div>
+        <div class="hot-topic">
+            <img src="img/hot-topic.jpg">
+            <h2 class="more-hot">热点内容......(<a href="#">更多</a>)</h2>
+            <ul class="specific">
+                <li>
+                    <a href="#">纪念霍金</a>
+                    <span class="rec_topics_subtitle">物理学家史蒂芬·威廉·霍金去世 · 69565人浏览</span>
+                </li>
+                <li><a href="https://erebor.douban.com/redirect/?ad=193977&amp;uid=&amp;bid=Cp2r87xje9w&amp;unit=dale_topic_web_homepage_second&amp;crtr=&amp;mark=&amp;hn=sindar4c&amp;sig=ab284dd3668506b0ed21b83e90285844fe2300bed4fa374b6d0ebfdaddd606747e7d6d3dde312539bc9e8f0997853e2fc0df25158c18425ecebe68af9b19c749&amp;pid=debug_359e7b75f7f50deb1e3368ecb197c577d15d72f3&amp;screen_width=0&amp;screen_height=0&amp;target=aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9nYWxsZXJ5L3RvcGljLzI4OTUv&amp;dumpling=&amp;apple=&amp;mooncake=&amp;icecream=&amp;onion="
+                       class="rec_topics_name">未老先衰脸怎么办？<span class="rec_topics_label rec_topics_label_ad">广告</span></a>
+                    <span class="rec_topics_subtitle">品牌话题 · 19178人浏览</span>
+                </li>
+                <li><a href="https://www.douban.com/gallery/topic/2930/?from=hot_topic_anony_sns" class="rec_topics_name">怎样在尴尬时保持不失礼貌？</a><span class="rec_topics_subtitle">40483人浏览</span></li>
+                <li><a href="https://www.douban.com/gallery/topic/2926/?from=hot_topic_anony_sns" class="rec_topics_name">醒不了的江湖梦</a><span class="rec_topics_subtitle">21596人浏览</span></li>
+                <li><a href="https://www.douban.com/gallery/topic/2925/?from=hot_topic_anony_sns" class="rec_topics_name">最难忘的面试经历</a><span class="rec_topics_subtitle">139280人浏览</span></li>
+                <li><a href="https://www.douban.com/gallery/topic/651/?from=hot_topic_anony_sns" class="rec_topics_name">女性权益保护</a><span class="rec_topics_subtitle">383753人浏览</span></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div id="douban-time">
+    <div class="wrap">
+        <a href="#">
+            <h1>豆瓣时间</h1>
+        </a>
+        <div class="voice">
+            <h2 class="more-hot">热点专栏......(<a href="#">更多</a>)</h2>
+            <ul class="voice-area">
+                <li>
+                    <a href="#"><img src="img/voice1.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/95?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>成为更好的自己——许燕人格心理学28讲</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="music">音乐</a>
+                    <a href="#"><img src="img/voice2.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/91?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>一个故事的诞生——22堂创意思维写作课</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="group">小组</a>
+                    <a href="#"><img src="img/voice3.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/76?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>52倍人生——戴锦华大师电影课</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="city">同城</a>
+                    <a href="#"><img src="img/voice4.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/94?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>小说课——毕飞宇解读中外经典</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="fm">fm</a>
+                    <a href="#"><img src="img/voice5.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/79?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>亲密而独立——洞悉爱情的20堂心理课</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="time">时间</a>
+                    <a href="#"><img src="img/voice6.png" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/72?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>觉知即新生——终止童年创伤的心理修复课</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
                 <li>
-                    <a href="" class="market">市集</a>
+                    <a href="#"><img src="img/voice7.png" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/83?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>哲学闪耀时——不一样的西方哲学</p>
+                        </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><img src="img/voice8.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/93?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>梵高地图——行走在书信与光影中</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
+                </li>
+                <li>
+                    <a href="#"><img src="img/voice9.png" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/57?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>控制力幻象——焦虑感背后的心理觉察</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
+                </li>
+                <li>
+                    <a href="#"><img src="img/voice10.jpg" alt="">
+                        <a class="title" href="https://m.douban.com/time/column/85?dt_time_source=douban-web_anonymous" target="_blank">
+                            <p>黑镜人生——网络生活的传播学肖像</p>
+                        </a>
+                    </a>
+                    <span>音频专栏</span>
                 </li>
             </ul>
         </div>
     </div>
-    <div id="banner">
-        <div class="wrap">
-            <div class="app">
-                <h1>豆瓣 5.0</h1>
-                <p>我们的精神角落</p>
-                <div class="download">
-                    <a href="#" class="btn-download">下载豆瓣 App</a>
-                    <img src="img/erweima.png" alt="">
-                </div>
-            </div>
-            <form action="" id="form-login" method="post">
-                <p class="bg-login">
-                    <input type="text" name="email" class="email" placeholder="邮箱 / 手机号">
-                </p>
-                <p class="bg-login">
-                    <input type="password" name="password" class="pwd" placeholder="密码">
-                    <span class="help">帮助</span>
-                </p>
-                <p>
-                    <input type="submit" class="btn login" value="登录豆瓣">
-                    <input type="button" class="btn register" value="注册账号">
-                </p>
-                <div class="rememeber-login">
-                    <input type="checkbox" class="remember-me"><span class="remember-me">记住我</span>
-                    <ul class="other-login">
-                        <li>
-                            <a href="#"><img src="img/wechat.png"></a>
-                        </li>
-                        <li>
-                            <a href="#"><img src="img/weibo.png"></a>
-                        </li>
-                    </ul>
-                </div>
-            </form>
+</div>
+<div id="radio">
+    <div class="wrap">
+        <a href="#">
+            <h1>视频</h1>
+        </a>
+        <div class="douban-radio">
+            <h2 class="more-hot">如是......</h2>
+            <ul class="radio-player">
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio1.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/636543704">
+                        《如是》第十二期丨如是：这是我的路，你的呢？
+                    </a>
+                </li>
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio2.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/634975903">
+                        《如是》第十一期丨王珮瑜：撕裂的生活很痛，但我喜欢
+                    </a>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio3.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/633227132">
+                        《如是》第十期｜西川：凡是能够使我获得再生之感的东西，都是诗意
+                    </a>
+                </li>
+            </ul>
+            <h2>
+                瓣嘴 &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+            </h2>
+            <ul class="radio-player">
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio4.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/651766520">
+                        “童年阴影”吴镇宇画风突变，化身八卦吴三岁
+                    </a>
+                </li>
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio5.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/650712014">吴君如吐槽力全开来踢馆，第一批豆友已经扛不住了</a>
+                </li>
+                <li>
+                    <a href="https://douban.com/note/636543704"><img src="img/radio6.jpg"><span><img src="img/play.png"></span></a>
+                    <a class="video-title" href="https://douban.com/note/649797709">黄轩变身冷场段子王，温柔形象秒破功</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div id="hot">
-        <div class="wrap">
-            <div class="hot-content">
-                <h2 class="more-hot">热点内容......(<a href="#">更多</a>)</h2>
-                <ul class="hot-pic">
-                    <li>
-                        <a href="#"><img src="img/hot1.webp">Mexico</a> 120张照片
-                    </li>
-                    <li>
-                        <a href="#"><img src="img/hot2.webp">Navic</a> 103张照片</li>
-                    <li>
-                        <a href="#"><img src="img/hot3.webp">慢慢吃</a> 503张照片</li>
-                    <li>
-                        <a href="#"><img src="img/hot4.webp">New Zealand(13-15)</a> 103张照片</li>
-                </ul>
-                <div class="hot-text">
-                    <p><a href="https://www.douban.com/note/660063411/">“我很不开心，但张开嘴却只说出没关系”| 妇女节专题：因为害怕伤害关系，我们如何放弃了自己的声音</a></p>
-                    <div class="special">
-                        <p>KnowYourself的日记</p>
-                        <p>我认为只要我不伤害任何人，一切都会相安无事。但我很快就理解到，事情并不那么简...</p>
-                    </div>
-                    <p><a href="https://www.douban.com/note/660255900/">我在英国议会做口译</a></p>
-                    <p><a href="https://www.douban.com/note/660209455/">很黄很暴力的那些片，怎么样才能通过审查在国内上映？</a></p>
-                    <p><a href="https://www.douban.com/note/659956689/">北美流行的超市攻略：溜边逛，不要去中间！</a></p>
-                    <p><a href="https://www.douban.com/note/659373707/">这片坟山，或许是江南墓葬最后的留存 |「过年」短篇</a></p>
-                    <p><a href="https://www.douban.com/note/660355470/">离开藤校后的生活</a></p>
-                    <p><a href="https://www.douban.com/note/660082579/">格蕾塔·葛韦格：一个文艺女青年的励志故事</a></p>
-                    <p><a href="https://www.douban.com/note/660082967/">也谈女性：冰岛女性地位高的个人感受</a></p>
-                    <p><a href="https://www.douban.com/note/660207041/">你明明这么迷人，你竟不自知</a></p>
-                    <p><a href="https://www.douban.com/note/660412600/">半边天究竟有多大：中国女性曾经如何走出家庭 为何如今又走回了家庭？</a></p>
-                </div>
-            </div>
-            <div class="hot-topic">
-                <img src="img/hot-topic.jpg">
-                <h2 class="more-hot">热点内容......(<a href="#">更多</a>)</h2>
-                <ul class="specific">
-                    <li>
-                        <a href="#">纪念霍金</a>
-                        <span class="rec_topics_subtitle">物理学家史蒂芬·威廉·霍金去世 · 69565人浏览</span>
-                    </li>
-                    <li><a href="https://erebor.douban.com/redirect/?ad=193977&amp;uid=&amp;bid=Cp2r87xje9w&amp;unit=dale_topic_web_homepage_second&amp;crtr=&amp;mark=&amp;hn=sindar4c&amp;sig=ab284dd3668506b0ed21b83e90285844fe2300bed4fa374b6d0ebfdaddd606747e7d6d3dde312539bc9e8f0997853e2fc0df25158c18425ecebe68af9b19c749&amp;pid=debug_359e7b75f7f50deb1e3368ecb197c577d15d72f3&amp;screen_width=0&amp;screen_height=0&amp;target=aHR0cHM6Ly93d3cuZG91YmFuLmNvbS9nYWxsZXJ5L3RvcGljLzI4OTUv&amp;dumpling=&amp;apple=&amp;mooncake=&amp;icecream=&amp;onion="
-                            class="rec_topics_name">未老先衰脸怎么办？<span class="rec_topics_label rec_topics_label_ad">广告</span></a>
-                        <span class="rec_topics_subtitle">品牌话题 · 19178人浏览</span>
-                    </li>
-                    <li><a href="https://www.douban.com/gallery/topic/2930/?from=hot_topic_anony_sns" class="rec_topics_name">怎样在尴尬时保持不失礼貌？</a><span class="rec_topics_subtitle">40483人浏览</span></li>
-                    <li><a href="https://www.douban.com/gallery/topic/2926/?from=hot_topic_anony_sns" class="rec_topics_name">醒不了的江湖梦</a><span class="rec_topics_subtitle">21596人浏览</span></li>
-                    <li><a href="https://www.douban.com/gallery/topic/2925/?from=hot_topic_anony_sns" class="rec_topics_name">最难忘的面试经历</a><span class="rec_topics_subtitle">139280人浏览</span></li>
-                    <li><a href="https://www.douban.com/gallery/topic/651/?from=hot_topic_anony_sns" class="rec_topics_name">女性权益保护</a><span class="rec_topics_subtitle">383753人浏览</span></li>
-                </ul>
-            </div>
+</div>
+<div id="movie">
+    <div class="wrap">
+        <div class="movie-option">
+            <h1>电影</h1>
+            <ul>
+                <li>影讯&购票</li>
+                <li>选电影<img src="img/new_menu.gif"></li>
+                <li>电视剧</li>
+                <li>排行榜</li>
+                <li>分类</li>
+                <li>影评</li>
+                <li>预告片</li>
+                <li>问答</li>
+            </ul>
         </div>
-    </div>
-    <div id="douban-time">
-        <div class="wrap">
-            <a href="#">
-                <h1>豆瓣时间</h1>
-            </a>
-            <div class="voice">
-                <h2 class="more-hot">热点专栏......(<a href="#">更多</a>)</h2>
-                <ul class="voice-area">
+        <div class="movie-more">
+            <h2 class="more-hot">影片分类......(<a href="#">更多</a>)</h2>
+            <ul class="movie-classify">
+                <!-- 爱情 喜剧 剧情 动画 科幻 动作 经典 悬疑 犯罪 青春 惊悚 文艺 搞笑 纪录片 励志 战争 恐怖 黑色幽默 美国 日本 香港 英国 中国 韩国 法国 台湾 中国大陆 德国 -->
+                <li><a href="">爱情</a></li>
+                <li>
+                    <a href=""> 喜剧</a>
+                </li>
+                <li>
+                    <a href="">剧情</a>
+                </li>
+                <li>
+                    <a href="">动画</a>
+                </li>
+                <li>
+                    <a href="">科幻</a>
+                </li>
+                <li>
+                    <a href="">动作</a>
+                </li>
+                <li>
+                    <a href="">经典</a>
+                </li>
+                <li><a href="">悬疑</a></li>
+                <li><a href="">犯罪</a></li>
+                <li><a href="">青春</a></li>
+                <li><a href="">惊悚</a></li>
+                <li><a href="">文艺</a></li>
+                <li><a href="">搞笑</a></li>
+                <li><a href="">纪录片</a></li>
+                <li><a href="">励志</a></li>
+                <li><a href="">战争</a></li>
+                <li><a href="">恐怖</a></li>
+                <li><a href="">黑色幽默</a></li>
+                <li><a href="">美国</a></li>
+                <li><a href="">日本</a></li>
+                <li><a href="">香港</a></li>
+                <li><a href="">英国</a></li>
+                <li><a href="">中国</a></li>
+                <li><a href="">韩国</a></li>
+                <li><a href="">法国</a></li>
+                <li><a href="">台湾</a></li>
+                <li><a href="">中国大陆</a></li>
+                <li><a href="">德国</a></li>
+            </ul>
+            <div class="movie-new">
+                <h2 class="more-hot">近期热门......(<a href="#">更多</a>)</h2>
+                <ol class="movie-hot">
                     <li>
-                        <a href="#"><img src="img/voice1.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/95?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>成为更好的自己——许燕人格心理学28讲</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;与神同行</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice2.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/91?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>一个故事的诞生——22堂创意思维写作课</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;水形物语</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice3.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/76?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>52倍人生——戴锦华大师电影课</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;伯德小姐</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice4.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/94?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>小说课——毕飞宇解读中外经典</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;芳华</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice5.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/79?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>亲密而独立——洞悉爱情的20堂心理课</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;大佛普拉斯</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice6.png" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/72?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>觉知即新生——终止童年创伤的心理修复课</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;神秘巨</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice7.png" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/83?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>哲学闪耀时——不一样的西方哲学</p>
-                            </a>
-                        </a>
+                        <a href="">&nbsp;&nbsp;至暗时刻</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice8.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/93?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>梵高地图——行走在书信与光影中</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;魅影缝匠</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice9.png" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/57?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>控制力幻象——焦虑感背后的心理觉察</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;妖猫传</a>
                     </li>
                     <li>
-                        <a href="#"><img src="img/voice10.jpg" alt="">
-                            <a class="title" href="https://m.douban.com/time/column/85?dt_time_source=douban-web_anonymous" target="_blank">
-                                <p>黑镜人生——网络生活的传播学肖像</p>
-                            </a>
-                        </a>
-                        <span>音频专栏</span>
+                        <a href="">&nbsp;&nbsp;华盛顿邮报</a>
                     </li>
-                </ul>
+                </ol>
             </div>
         </div>
     </div>
-    <div id="radio">
-        <div class="wrap">
-            <a href="#">
-                <h1>视频</h1>
-            </a>
-            <div class="douban-radio">
-                <h2 class="more-hot">如是......</h2>
-                <ul class="radio-player">
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio1.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/636543704">
-                            《如是》第十二期丨如是：这是我的路，你的呢？
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio2.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/634975903">
-                            《如是》第十一期丨王珮瑜：撕裂的生活很痛，但我喜欢
-                        </a>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio3.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/633227132">
-                            《如是》第十期｜西川：凡是能够使我获得再生之感的东西，都是诗意
-                        </a>
-                    </li>
-                </ul>
-                <h2>
-                    瓣嘴 &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
-                </h2>
-                <ul class="radio-player">
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio4.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/651766520">
-                            “童年阴影”吴镇宇画风突变，化身八卦吴三岁
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio5.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/650712014">吴君如吐槽力全开来踢馆，第一批豆友已经扛不住了</a>
-                    </li>
-                    <li>
-                        <a href="https://douban.com/note/636543704"><img src="img/radio6.jpg"><span><img src="img/play.png"></span></a>
-                        <a class="video-title" href="https://douban.com/note/649797709">黄轩变身冷场段子王，温柔形象秒破功</a>
-                    </li>
-                </ul>
-            </div>
+</div>
+<div id="group">
+    <div class="wrap">
+        <div class="group-option">
+            <h1>小组</h1>
+            <ul>
+                <li>
+                    <a href="">精选</a>
+                </li>
+                <li>
+                    <a href="">文化</a>
+                </li>
+                <li>
+                    <a href="">行摄</a>
+                </li>
+                <li>
+                    <a href="">娱乐</a>
+                </li>
+                <li>
+                    <a href="">时尚</a>
+                </li>
+                <li>
+                    <a href="">生活</a>
+                </li>
+                <li>
+                    <a href="">科技</a>
+                </li>
+            </ul>
+        </div>
+        <div class="hot-group">
+            <h2 class="more-hot">热门小组......(<a href="#">更多</a>)</h2>
+            <ul class="more-group">
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group1.webp" alt="">你荒废时间的时候会有多少人在拼命</a><span>134980 个成员</span>
+                </li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group2.jpg" alt="">破越古怪问题研究所</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group3.webp" alt="">〓小小女人帮〓 男 3 喷子 圣母勿进</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group4.jpg" alt=""> 每天一歌</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group5.jpg" alt="">◎变态学英语交流小组◎</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group6.webp" alt="">心理社</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group7.webp" alt="">台湾 | 电影 | 往事</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group8.jpg" alt="">自己给自己剪头发</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group9.jpg" alt="">我们就是要做衣服给自己穿</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group10.webp" alt="">豆瓣互助旅行</a><span>134980 个成员</span></li>
+                <li>
+                    <a href="https://www.douban.com/group/442879/"><img src="img/group11.jpg" alt="">外国文学</a><span>134980 个成员</span></li>
+            </ul>
+        </div>
+        <div class="group-classify">
+            <h2 class="more-hot">小组分类......</h2>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">兴趣»</a>
+                </li>
+                <li>
+                    <a href="">旅行</a>
+                </li>
+                <li>
+                    <a href="">摄影</a>
+                </li>
+                <li>
+                    <a href="">影视</a>
+                </li>
+                <li>
+                    <a href="">音乐</a>
+                </li>
+                <li>
+                    <a href="">文学</a>
+                </li>
+                <li>
+                    <a href="">游戏</a>
+                </li>
+                <li>
+                    <a href="">动漫</a>
+                </li>
+                <li>
+                    <a href="">运动</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">桌游</a>
+                </li>
+                <li>
+                    <a href="">怪癖</a>
+                </li>
+            </ul>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">生活»</a>
+                </li>
+                <li>
+                    <a href="">健康</a>
+                </li>
+                <li>
+                    <a href="">美食</a>
+                </li>
+                <li>
+                    <a href="">宠物</a>
+                </li>
+                <li>
+                    <a href="">美容</a>
+                </li>
+                <li>
+                    <a href="">化妆</a>
+                </li>
+                <li>
+                    <a href="">护肤</a>
+                </li>
+                <li>
+                    <a href="">服饰</a>
+                </li>
+                <li>
+                    <a href="">公益</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">家庭</a>
+                </li>
+                <li>
+                    <a href="">育儿</a>
+                </li>
+                <li>
+                    <a href="">汽车</a>
+                </li>
+            </ul>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">生活»</a>
+                </li>
+                <li>
+                    <a href="">健康</a>
+                </li>
+                <li>
+                    <a href="">美食</a>
+                </li>
+                <li>
+                    <a href="">宠物</a>
+                </li>
+                <li>
+                    <a href="">美容</a>
+                </li>
+                <li>
+                    <a href="">化妆</a>
+                </li>
+                <li>
+                    <a href="">护肤</a>
+                </li>
+                <li>
+                    <a href="">服饰</a>
+                </li>
+                <li>
+                    <a href="">公益</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">家庭</a>
+                </li>
+                <li>
+                    <a href="">育儿</a>
+                </li>
+                <li>
+                    <a href="">汽车</a>
+                </li>
+            </ul>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">生活»</a>
+                </li>
+                <li>
+                    <a href="">健康</a>
+                </li>
+                <li>
+                    <a href="">美食</a>
+                </li>
+                <li>
+                    <a href="">宠物</a>
+                </li>
+                <li>
+                    <a href="">美容</a>
+                </li>
+                <li>
+                    <a href="">化妆</a>
+                </li>
+                <li>
+                    <a href="">护肤</a>
+                </li>
+                <li>
+                    <a href="">服饰</a>
+                </li>
+                <li>
+                    <a href="">公益</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">家庭</a>
+                </li>
+                <li>
+                    <a href="">育儿</a>
+                </li>
+                <li>
+                    <a href="">汽车</a>
+                </li>
+            </ul>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">生活»</a>
+                </li>
+                <li>
+                    <a href="">健康</a>
+                </li>
+                <li>
+                    <a href="">美食</a>
+                </li>
+                <li>
+                    <a href="">宠物</a>
+                </li>
+                <li>
+                    <a href="">美容</a>
+                </li>
+                <li>
+                    <a href="">化妆</a>
+                </li>
+                <li>
+                    <a href="">护肤</a>
+                </li>
+                <li>
+                    <a href="">服饰</a>
+                </li>
+                <li>
+                    <a href="">公益</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">家庭</a>
+                </li>
+                <li>
+                    <a href="">育儿</a>
+                </li>
+                <li>
+                    <a href="">汽车</a>
+                </li>
+            </ul>
+            <ul class="group-insterest">
+                <li class="group-special">
+                    <a href="">生活»</a>
+                </li>
+                <li>
+                    <a href="">健康</a>
+                </li>
+                <li>
+                    <a href="">美食</a>
+                </li>
+                <li>
+                    <a href="">宠物</a>
+                </li>
+                <li>
+                    <a href="">美容</a>
+                </li>
+                <li>
+                    <a href="">化妆</a>
+                </li>
+                <li>
+                    <a href="">护肤</a>
+                </li>
+                <li>
+                    <a href="">服饰</a>
+                </li>
+                <li>
+                    <a href="">公益</a>
+                </li>
+                <li>
+                    <a href="">戏曲</a>
+                </li>
+                <li>
+                    <a href="">家庭</a>
+                </li>
+                <li>
+                    <a href="">育儿</a>
+                </li>
+                <li>
+                    <a href="">汽车</a>
+                </li>
+            </ul>
         </div>
     </div>
-    <div id="movie">
-        <div class="wrap">
-            <div class="movie-option">
-                <h1>电影</h1>
-                <ul>
-                    <li>影讯&购票</li>
-                    <li>选电影<img src="img/new_menu.gif"></li>
-                    <li>电视剧</li>
-                    <li>排行榜</li>
-                    <li>分类</li>
-                    <li>影评</li>
-                    <li>预告片</li>
-                    <li>问答</li>
-                </ul>
-            </div>
-            <div class="movie-more">
-                <h2 class="more-hot">影片分类......(<a href="#">更多</a>)</h2>
-                <ul class="movie-classify">
-                    <!-- 爱情 喜剧 剧情 动画 科幻 动作 经典 悬疑 犯罪 青春 惊悚 文艺 搞笑 纪录片 励志 战争 恐怖 黑色幽默 美国 日本 香港 英国 中国 韩国 法国 台湾 中国大陆 德国 -->
-                    <li><a href="">爱情</a></li>
-                    <li>
-                        <a href=""> 喜剧</a>
-                    </li>
-                    <li>
-                        <a href="">剧情</a>
-                    </li>
-                    <li>
-                        <a href="">动画</a>
-                    </li>
-                    <li>
-                        <a href="">科幻</a>
-                    </li>
-                    <li>
-                        <a href="">动作</a>
-                    </li>
-                    <li>
-                        <a href="">经典</a>
-                    </li>
-                    <li><a href="">悬疑</a></li>
-                    <li><a href="">犯罪</a></li>
-                    <li><a href="">青春</a></li>
-                    <li><a href="">惊悚</a></li>
-                    <li><a href="">文艺</a></li>
-                    <li><a href="">搞笑</a></li>
-                    <li><a href="">纪录片</a></li>
-                    <li><a href="">励志</a></li>
-                    <li><a href="">战争</a></li>
-                    <li><a href="">恐怖</a></li>
-                    <li><a href="">黑色幽默</a></li>
-                    <li><a href="">美国</a></li>
-                    <li><a href="">日本</a></li>
-                    <li><a href="">香港</a></li>
-                    <li><a href="">英国</a></li>
-                    <li><a href="">中国</a></li>
-                    <li><a href="">韩国</a></li>
-                    <li><a href="">法国</a></li>
-                    <li><a href="">台湾</a></li>
-                    <li><a href="">中国大陆</a></li>
-                    <li><a href="">德国</a></li>
-                </ul>
-                <div class="movie-new">
-                    <h2 class="more-hot">近期热门......(<a href="#">更多</a>)</h2>
-                    <ol class="movie-hot">
-                        <li>
-                            <a href="">&nbsp;&nbsp;与神同行</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;水形物语</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;伯德小姐</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;芳华</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;大佛普拉斯</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;神秘巨</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;至暗时刻</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;魅影缝匠</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;妖猫传</a>
-                        </li>
-                        <li>
-                            <a href="">&nbsp;&nbsp;华盛顿邮报</a>
-                        </li>
-                    </ol>
-                </div>
-            </div>
+</div>
+<div id="footer">
+    <div class="wrap">
+        <div class="foot-message">
+                <span>© 2005－2018 douban.com, all rights reserved 北京豆网科技有限公司</br>
+                    <a href="">京ICP证090015号</a>
+                    京ICP备11027288号 网络视听许可证
+                    <a href="">0110418</a>号</br>
+                    京网文[2015]2026-368号
+                    <a href=""> 京公网安备11010502000728</a>
+                    新出网证(京)字129号</br>
+                    违法和不良信息举报电话：4008353331  </br>
+                    <img src="img/jubao.png">
+                    <a href="">中国互联网举报中心</a>
+                    电话：12377
+                    <a href=""> 《食品流通许可证》许可证：SP1101051510347287</a></br>
+                    <a href="">新出发京批字第直160029号</a>
+                </span>
+        </div>
+        <div class="foot-service">
+            <ul class="foot-serv">
+                <li>
+                    <a href="">关于豆瓣</a>
+                </li>
+                <li>
+                    <a href="">在豆瓣工作</a>
+                </li>
+                <li>
+                    <a href="">联系我们</a>
+                </li>
+                <li>
+                    <a href="">免责声明</a>
+                </li>
+                <li>
+                    <a href="">帮助中心</a>
+                </li>
+                <li>
+                    <a href="">移动应用</a>
+                </li>
+                <li>
+                    <a href="">豆瓣广告</a>
+                </li>
+            </ul>
+            <img src="img/file-1489464722.jpg">
         </div>
     </div>
-    <div id="group">
-        <div class="wrap">
-            <div class="group-option">
-                <h1>小组</h1>
-                <ul>
-                    <li>
-                        <a href="">精选</a>
-                    </li>
-                    <li>
-                        <a href="">文化</a>
-                    </li>
-                    <li>
-                        <a href="">行摄</a>
-                    </li>
-                    <li>
-                        <a href="">娱乐</a>
-                    </li>
-                    <li>
-                        <a href="">时尚</a>
-                    </li>
-                    <li>
-                        <a href="">生活</a>
-                    </li>
-                    <li>
-                        <a href="">科技</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="hot-group">
-                <h2 class="more-hot">热门小组......(<a href="#">更多</a>)</h2>
-                <ul class="more-group">
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group1.webp" alt="">你荒废时间的时候会有多少人在拼命</a><span>134980 个成员</span>
-                    </li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group2.jpg" alt="">破越古怪问题研究所</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group3.webp" alt="">〓小小女人帮〓 男 3 喷子 圣母勿进</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group4.jpg" alt="" 每天一歌</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group5.jpg" alt="">◎变态学英语交流小组◎</a><span>134980 个成员</span>></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group6.webp" alt="">心理社</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group7.webp" alt="">台湾 | 电影 | 往事</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group8.jpg" alt="">自己给自己剪头发</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group9.jpg" alt="">我们就是要做衣服给自己穿</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group10.webp" alt="">豆瓣互助旅行</a><span>134980 个成员</span></li>
-                    <li>
-                        <a href="https://www.douban.com/group/442879/"><img src="img/group11.jpg" alt="">外国文学</a><span>134980 个成员</span></li>
-                </ul>
-            </div>
-        </div>
-    </div>
+</div>
 </body>
 
 </html>
